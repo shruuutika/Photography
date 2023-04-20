@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.middle{
+    font-size: larger;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#hero h1{
+    font-size: 4rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#slogan{
+    background-color: #f3f2f0;
+}
+#hero1{
+    background-color: #f3f2f0;
+}
+#slogan h1{
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#about h5{
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#about h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#service .write a{
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#work h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#work .container{
+    padding-top: 5rem;
+    padding-bottom: 25rem;
+}
+.img1 img{
+    height: 90vh;
+    /* width: 99%; */
+}
+.img1{
+    margin-top: -22rem;
+    position: relative;
+}
+.img2 img{
+    height: 90vh;
+    /* width: 80%; */
+}
+.img2{
+    margin-top: -12rem;
+    position: relative;
+}
+.img3 img{
+    height: 90vh;
+    width: 100%;
+}
+.img3 img:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.img4 img{
+    height: 90vh;
+    width: 100%;
+}
+.img4{
+    margin-top: 10rem;
+}
+.img4 img:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+  }  
+  .text{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.515);
+  }
+  
+  .img1:hover .text{
+    opacity: 1;
+  }
+  .img2:hover .text{
+    opacity: 1;
+  }
+  
+  
+  .middle{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .bottom{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+@media screen and (max-width:768px) {
+    .middle a{
+        display: none;
+    }
+    #work{
+        display: none;
+    }
+    .imgs{
+        display: none;
+    }
+    .bottom a{
+        display: none;
+    }
+    #InTouch .textarea{
+        display: none;
+    }
+}
