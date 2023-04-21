@@ -130,4 +130,7 @@
     #InTouch .textarea{
         display: none;
     }
+    #hero .im{
+        height: 60vh;
+    }
 }
